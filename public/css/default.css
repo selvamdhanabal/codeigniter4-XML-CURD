@@ -1,0 +1,64 @@
+img { border:none; }
+a { color:#999;}
+a:hover { color:#666; text-decoration:none; }
+img, div { behavior: url(./img/iepngfix.htc) }
+ul li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; }
+
+input, textarea, select { width:280px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11px; }
+select { width:285px; }
+
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px; 
+	margin:0px;
+}
+
+#wrapper {
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#header, #content, #footer { margin-top:0px; overflow:hidden;}
+#content, #footer { padding:5px;}
+
+#header { padding:0px; margin-bottom:10px; margin-top:10px;  }
+
+#header .logo { width:100px; margin:auto; }
+#header .ban { width:100%; height:164px; background:url(../img/ban1.png) repeat-x; margin-top:10px; margin-bottom:10px; }
+
+#header .status { color:#CCC; }
+#header .status a.sel { color:#666; }
+#header .loading_status { margin:auto; width:90px; text-align:center; height:18px; line-height:18px; }
+#header .loading_status .loading { background-color:#FFC; }
+
+#content {  }
+#content .sub_tit { font-size:15px; line-height:15px; color:#6A6D74;}
+
+#content .terr { font-size:10px; color:#C00; }
+#content .but { width:100px; cursor:pointer; background-color:#EFEFEF; border:1px outset #CFD3D6; }
+#content .but:hover { background-color:#FAFAFA; }
+
+#content .rows { width:100%; border-spacing:2px; }
+#content .rows .tr_th { background-color:#333; color:#EBEBEB; }
+#content .rows .tr_od { background-color:#F4F4F4; }
+#content .rows .tr_ev { background-color:#F8F8F8; }
+#content .rows .tr_ev:hover { background-color:#F8F7B6; }
+
+#content .rows .tr_od:hover { background-color:#F8F7B6; }
+
+.page { overflow:hidden; margin:10px 0px; }
+.page div { float:left; border:1px solid #369; margin-left:5px; }
+.page div a { text-decoration:none; padding:5px; }
+.page .cur { border:1px solid #369; background-color:#369; color:#CCC; padding:0px 5px; }
+
+.error, #content .success { overflow:hidden;  }
+.error .caption, #content .success .caption { color:#FAFAFA; padding:2px 5px; font-size:12px; overflow:hidden; }
+.error .msg, #content .success .msg { padding:2px 5px; border:1px solid #EBEBEB; border-top:none; }
+.error .caption { background-color:#900; }
+.success .caption { background-color:#699;  }
+
+#footer { margin:auto; margin-top:28px; color:#999;}
+#footer ul { list-style:none; margin:0px; padding:0px; text-align:center; }
+#footer ul li { }
+#footer .pow { float:right; }
